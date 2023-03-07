@@ -42,6 +42,7 @@ export class UserView extends React.Component<ViewProps, ViewState>{
                             <label className="form-check-label" htmlFor="exampleCheck1">Permanecer conectado</label>
                         </div >
                         <button type="submit" className="btn btn-success mt-3">Entrar</button>
+                        <span className="text-success">{formSent? ' Formulário enviando com sucesso!': ''}</span>
                     </form>
             </Container>
     
