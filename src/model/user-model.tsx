@@ -2,6 +2,8 @@ export default class UserModel{
     name: string;
     email: string;
     message: string;
+    address:string;
+    phone:any;
 
     constructor(){
 
