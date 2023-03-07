@@ -2,6 +2,7 @@ import { Container } from "./style";
 
 export const Formulario = () =>{
     return(
+        
         <Container>
                <form>
                     <div className="mb-3 ">
